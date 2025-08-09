@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bAutoMason - AI Agency</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1f36, #2e3b73);
+            color: #fff;
+        }
+        header {
+            padding: 2rem;
+            text-align: center;
+            background: linear-gradient(90deg, #6a11cb, #2575fc);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        .pricing {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            padding: 3rem;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: linear-gradient(145deg, #1f2647, #2a3568);
+            padding: 2rem;
+            border-radius: 1rem;
+            text-align: center;
+            width: 300px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+        }
+        .card h2 {
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+        }
+        .price {
+            font-size: 2rem;
+            margin: 1rem 0;
+            color: #00f7ff;
+        }
+        .features {
+            list-style: none;
+            padding: 0;
+            margin: 1rem 0;
+            text-align: left;
+        }
+        .features li {
+            margin: 0.5rem 0;
+            opacity: 0.9;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.7rem 1.5rem;
+            background: linear-gradient(90deg, #ff512f, #dd2476);
+            color: white;
+            text-decoration: none;
+            border-radius: 2rem;
+            transition: background 0.3s ease;
+        }
+        .btn:hover {
+            background: linear-gradient(90deg, #dd2476, #ff512f);
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: linear-gradient(90deg, #6a11cb, #2575fc);
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>bAutoMason</h1>
+        <p>Your AI-powered automation partner</p>
+    </header>
+
+    <section class="pricing">
+        <div class="card">
+            <h2>Basic</h2>
+            <p class="price">$99/mo</p>
+            <ul class="features">
+                <li>AI chatbot setup</li>
+                <li>Email automation</li>
+                <li>Basic analytics</li>
+            </ul>
+            <a href="#" class="btn">Get Started</a>
+        </div>
+
+        <div class="card">
+            <h2>Advanced</h2>
+            <p class="price">$299/mo</p>
+            <ul class="features">
+                <li>Everything in Basic</li>
+                <li>Custom AI workflows</li>
+                <li>CRM integration</li>
+                <li>Advanced analytics</li>
+            </ul>
+            <a href="#" class="btn">Get Started</a>
+        </div>
+
+        <div class="card">
+            <h2>Custom</h2>
+            <p class="price">Contact Us</p>
+            <ul class="features">
+                <li>Tailored AI solutions</li>
+                <li>Dedicated support</li>
+                <li>Enterprise-grade integrations</li>
+                <li>Scalable architecture</li>
+            </ul>
+            <a href="#" class="btn">Contact Sales</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 bAutoMason. All rights reserved.</p>
+    </footer>
+</body>
+</html>
